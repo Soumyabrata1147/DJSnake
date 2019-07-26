@@ -1,0 +1,401 @@
+body{
+    margin:0;
+}
+@font-face{
+    font-family:t;
+    src:url('Trebuchet MS Bold.ttf');
+}
+@font-face{
+    font-family:i;
+    src:url('Trebuchet MS Italic.ttf');
+}
+.nav{
+    width:100%;
+    height:125px;
+    background-color: rgb(243, 243, 243);
+}
+.name{
+    margin-left:20px;
+    padding-top:30px;
+}
+.list{
+    float:right;
+    padding-top:20px;
+    margin-right:130px;
+}
+.list a{
+    font-family:Arial;
+    font-size:11px;
+    text-transform: uppercase;
+    padding:12px;
+    color:#111;
+    text-decoration: none;
+}
+.video-cont{
+    width:1120px;
+    height:618px;
+overflow:hidden;
+    margin:0 auto;
+}
+.slider-control{
+    margin:10px auto;
+}
+.video-cont2{
+    width:1120px;
+    height:121px;
+overflow:hidden;
+    margin:0 auto;
+}
+.video-slide{
+    width:10080px;
+    height:121px;
+    position: relative;
+}
+.video-slide2{
+    width:1580px;
+    height:121px;
+    position: relative;
+    animation-name: slide2;
+    animation-duration: 35s;
+    animation-iteration-count: infinite;
+}
+@keyframes slide2{
+    0%{
+left:0px;
+    }
+    14%{
+        left:0px;
+    }
+    15%{
+        left:-223px;
+    }
+    29%{
+        left:-223px;
+    }
+    30%{
+        left:-450px;
+    }
+    44%{
+        left:-450px;
+    }
+    45%{
+        left:-678px;
+    }
+    59%{
+        left:-678px;
+    }
+    60%{
+        left:-906px;
+    }
+    74%{
+        left:-906px;
+    }
+    75%{
+        left:-1134px;
+    }
+    89%{
+        left:-1134px;
+    }
+90%{
+    left:-1362px;
+}
+100%{
+    left:-1362px;
+}
+}
+.heading{
+    font-family:'t';
+    font-size:85px;
+    margin-bottom:15px;
+    margin-left:120px;
+    margin-right:120px;
+}
+.music-part{
+    background-color:rgb(243, 243, 243);
+}
+.cont-slide{
+width:100%;
+height:440px;
+background-color:rgb(243, 243, 243);
+}
+.container{
+    width:400px;
+    height:400px;
+overflow:hidden;
+    margin:0 auto;
+}
+.carousel{
+    width:4020px;
+    height:400px;
+    position: relative;
+    animation-name: slide;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+}
+
+img{
+    float:left;
+}
+/*
+@keyframes slide{
+    0%{
+        left:0px;
+    }
+    9%{
+        left:0px;
+    }
+    10%{
+        left:-400px;
+    }
+    19%{
+        left:-400px;
+    }
+    20%{
+        left:-800px;
+    }
+    29%{
+        left:-800px;
+    }
+    30%{
+        left:-1200px;
+    }
+    39%{
+        left:-1200px;
+    }
+    40%{
+        left:-1600px;
+    }
+    49%{
+        left:-1600px;
+    }
+    50%{
+        left:-2000px;
+    }
+    59%{
+        left:-2000px;
+    }
+    60%{
+        left:-2400px;
+    }
+    69%{
+        left:-2400px;
+    }
+    70%{
+        left:-2800px;
+    }
+    79%{
+        left:-2800px;
+    }
+    80%{
+        left:-3200px;
+    }
+    89%{
+        left:-3200px;
+    }
+    90%{
+        left:-3600px;
+    }
+    99%{
+        left:-3600px;
+    }
+
+}
+*/
+.merch{
+    margin:0 100px;
+}
+.div1{
+    width:280px;
+    height:370px;
+   text-align: center;
+   display:inline-block;
+}
+.div1 p{
+    margin:0;
+    font-family:'i';
+    font-size:14px;
+    line-height:25px;
+    color:grey;
+}
+.row-table{
+    width:100%;
+    height:950px;
+}
+.row-tour:hover{
+background-color:rgb(243, 243, 243);
+}
+.all-dates{
+    width:calc(100%-260px);
+    height:33px;
+    margin:0 130px;
+    margin-top:10px;
+    padding-top:17px;
+    text-align: center;
+    font-family:Arial;
+font-size:14px;
+color:rgb(252, 66, 66);
+text-transform:uppercase;
+font-weight:bold;
+    border:1px solid rgb(252, 66, 66);
+}
+.row-tour{
+    width:calc(100%-260px);
+    height:82px;
+    margin:0 130px;
+    border-top:1px solid rgb(204, 204, 204); 
+}
+
+.date{
+font-family:Arial;
+font-size:16px;
+font-weight:bold;
+padding-top:30px;
+width:10%;
+height:52px;
+margin-left:6px;
+float:left;
+}
+    .city{
+        color:rgb(252, 66, 66);
+        width:30%;
+        font-family:Arial;
+        font-size:17px;
+        height:52px;
+        padding-top:30px;
+        float:left;
+        
+    }
+    
+    .state{
+        width:29%;
+        text-align:right;
+        padding-top:11px;
+        font-family:Arial;
+        padding-top:30px;
+        font-size:17px;float:left;
+        height:52px;
+        margin-right:10px;
+    }
+
+    .ticket{
+        width:14%;
+        height:52px;
+        float:right;
+        padding-top:15px;
+    }
+    .rsvp{
+        width:12%;
+        padding-top:15px;
+        height:52px;
+        float:left;
+    }
+.rsvp button{
+    color:rgb(252, 66, 66);
+ background:transparent;
+ font-family:Arial;
+ font-size:14px;
+ width:150px;
+ height:46px;
+ border:1px solid rgb(252, 66, 66);
+ font-weight:bold;
+}
+.ticket button{
+    background-color:rgb(252, 66, 66);
+    color:#fff;
+    font-family:Arial;
+    font-size:14px;
+    width:150px;
+    height:46px;
+    border:1px solid rgb(252, 66, 66);
+    font-weight:bold;
+}
+.icons{
+    text-align:right;
+    width:100%;
+height:26px;
+padding-top:10px;
+padding-bottom:10px;
+position:fixed;
+bottom:0;
+background-color:#FFF;
+}
+.icons a{
+font-size:22px;
+padding:13px;
+color:#111;
+}
+.hidden-tour{
+    display:none;
+}
+.click-height{
+    height:1945px;
+    width:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.video-slide2 img{
+    float:left;
+}
+
+.video-slide img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity .5s ease-out, transform .5s ease-out;
+    transform: translateX(-100%);
+    /* transform: translateX(-100%) rotate(-720deg); */ /* try this, it's nuts */
+    opacity: 0;
+  }
+  .carousel img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity .5s ease-out, transform .5s ease-out;
+    transform: translateX(-100%);
+    /* transform: translateX(-100%) rotate(-720deg); */ /* try this, it's nuts */
+    opacity: 0;
+  }
+  
+  input[type="radio"] {
+    display: none;
+  }
+  
+  input:checked + img {
+    transform: translateX(0);
+    /* transform: translateX(0) rotate(0); */ /* try this with the commented line above */
+    opacity: 1;
+    z-index: 1;
+  }
+  .video-slide2 label {
+    width:216px;
+    margin-right:6px;
+    height:161px;
+    display:inline-block;
+  
+  }
+  .slope-control{
+      width:100%;
+      height:20px;
+      text-align: center;
+  }
+  .slope-control label {
+    width:7px;
+    margin-right:8px;
+    background-color: rgb(172, 169, 169);
+    height:7px;
+    display:inline-block;
+  border-radius:50%;
+  margin-top:12px;
+  }
